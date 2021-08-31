@@ -28,7 +28,7 @@ article, aside, audio, canvas, datalist, details, figcaption, figure, footer, he
 
 body, html, .grid { width: 100%; height: 100vh; }
 
-.img-fluid { display: block; max-width: 100%; height: auto; }
+.img-fluid { display: block; max-height: 100%; width: auto; margin: 0 auto; }
 
 .grid { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 
