@@ -98,9 +98,9 @@ gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'bower_components/jquery/dist/jquery.min.js',
 		'bower_components/bootstrap/dist/js/bootstrap.bundle.min.js',
-		'bower_components/owl.carousel/dist/owl.carousel.min.js',
-		'bower_components/jcf/dist/js/jcf.js',
-		'bower_components/jcf/dist/js/jcf.select.js',
+		// 'bower_components/owl.carousel/dist/owl.carousel.min.js',
+		// 'bower_components/jcf/dist/js/jcf.js',
+		// 'bower_components/jcf/dist/js/jcf.select.js',
 		// 'bower_components/datatables.net/js/jquery.dataTables.min.js',
 		// 'bower_components/bootstrap-select/dist/js/bootstrap-select.min.js',
 		// 'bower_components/chart.js/dist/Chart.min.js',
@@ -118,9 +118,9 @@ gulp.task('css-libs', ['sass'], function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		// 'bower_components/fontawesome/css/all.min.css',
 		
-		'bower_components/owl.carousel/dist/assets/owl.theme.green.css',
-		'bower_components/owl.carousel/dist/assets/owl.carousel.css',
-		'bower_components/jcf/dist/css/theme-minimal/jcf.css',
+		// 'bower_components/owl.carousel/dist/assets/owl.theme.green.css',
+		// 'bower_components/owl.carousel/dist/assets/owl.carousel.css',
+		// 'bower_components/jcf/dist/css/theme-minimal/jcf.css',
 		// 'bower_components/datatables.net-dt/css/jquery.dataTables.min.css',
 		// 'bower_components/bootstrap-select/dist/css/bootstrap-select.min.css',
 		// 'bower_components/fancybox/dist/jquery.fancybox.min.css',
